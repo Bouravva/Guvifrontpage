@@ -1,0 +1,77 @@
+
+body{
+    background-color: aliceblue;
+}.box{
+    height:700px;
+    width:200vh;
+    
+}
+.Lbox{
+   height: 60%;
+   width: 45%;
+   left:35px;
+   top:85px;
+   position: relative;
+}
+.Rbox{
+    height: 65%;
+    width: 50%;
+    
+    top:80px;
+   position: absolute;
+   left:600px;
+}
+.Rbox span{
+    color:rgb(78, 247, 11);
+    font-size:20px;
+    left:0px;
+    font-size: 22px;
+}
+.Rbox{
+    line-height: 2rem;
+    text-align: justify;
+    justify-content: center;;
+}
+.Rbox .btn{
+    width:350px;
+   padding:3px;
+   border:none;
+   /* background-color: white; */
+   left:0px;
+   font-family: sans-serif;
+   background-color: black;
+   color: white;
+  cursor:text;
+  transition: 1s;
+  box-shadow: 3px 3px 1px black;
+}
+.btn:hover{
+    background-color:gray;
+    color:black
+}
+.Rbox h1{
+  font-family: sans-serif;
+}
+.Rbox p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+p:hover{
+    background-color: aliceblue;
+    color:deeppink;
+    transition: 2s;
+}
+.Lbox img{
+    top:90px;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px;
+    filter: drop-shadow( 5px 5px 1px black);
+   
+}
+.Rbox marquee{
+    background-color: rgb(223, 195, 200);
+}
+marquee:hover{
+    color:white;
+}
